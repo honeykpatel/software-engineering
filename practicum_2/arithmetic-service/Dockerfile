@@ -11,7 +11,7 @@ COPY package*.json ./
 RUN npm install
 
 # Copy the index.js file to the container
-COPY index.js .
+COPY src/index.js .
 
 # Expose the port on which the application will run
 EXPOSE 3000
